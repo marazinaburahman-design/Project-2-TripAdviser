@@ -28,67 +28,73 @@
     </style>
 </head>
 
-<body>
+<body class="pt-20">
 
-   <!-- Navbar -->
-<nav class="fixed top-0 left-0 right-0 bg-white border-b border-gray-200 z-50">
-    <div class="max-w-6xl mx-auto px-4">
-        <div class="flex justify-between items-center py-3">
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 right-0 bg-white border-b border-gray-200 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-3">
 
-            <!-- Hamburger Menu (Mobile/Tablet) -->
-            <button id="hamburger" class="lg:hidden p-2 hover:bg-gray-200 rounded-lg">
-                <i class="fa-solid fa-bars text-xl"></i>
-            </button>
+                <!-- Hamburger Menu (Mobile/Tablet) -->
+                <button id="hamburger" class="lg:hidden p-2 hover:bg-gray-200 rounded-lg">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                </button>
 
-            <!-- Logo -->
-            <div class="font-bold text-xl md:text-2xl flex-shrink-0">
-                👀 Tripadvisor
-            </div>
+                <!-- Logo -->
+                <div class="font-bold text-xl md:text-2xl flex-shrink-0">
+                    👀 Tripadvisor
+                </div>
 
-            <!-- Search Bar (Hidden on Mobile, Visible on Tablet+) -->
-            <div class="hidden md:flex border border-gray-400 border-2 px-3 py-2 rounded-3xl flex-1 mx-2 lg:mx-6">
-                <i class="fa-solid fa-magnifying-glass text-gray-600"></i>
-                <input type="text" class="outline-none ml-2 w-full bg-transparent text-sm" placeholder="Search...">
-            </div>
+                <!-- Search Bar (Hidden on Mobile, Visible on Tablet+) -->
+                <div class="hidden md:flex border border-gray-400 border-2 px-3 py-2 rounded-3xl flex-1 mx-2 lg:mx-6">
+                    <i class="fa-solid fa-magnifying-glass text-gray-600"></i>
+                    <input type="text" class="outline-none ml-2 w-full bg-transparent text-sm" placeholder="Search...">
+                </div>
 
-            <!-- Desktop Navigation (Hidden on Mobile/Tablet) -->
-            <div class="hidden lg:flex items-center gap-2">
-                <p class="px-2 py-1 hover:bg-gray-200 hover:rounded-2xl transition-all cursor-pointer text-sm">Plan with AI</p>
-                <p><a href="" class="px-2 py-1 hover:bg-gray-200 hover:rounded-2xl transition-all text-green-950 font-medium text-sm">Rewards</a></p>
-                <p><a href="" class="px-2 py-1 hover:bg-gray-200 hover:rounded-2xl transition-all text-green-950 font-medium text-sm">Discover</a></p>
-                <p><a href="" class="px-2 py-1 hover:bg-gray-200 hover:rounded-2xl transition-all text-green-950 font-medium text-sm">Review</a></p>
-                <p><a href="" class="px-2 py-1 hover:bg-gray-200 hover:rounded-2xl transition-all text-green-950 font-medium text-sm">Forums</a></p>
-            </div>
+                <!-- Desktop Navigation (Hidden on Mobile/Tablet) -->
+                <div class="hidden lg:flex items-center gap-2">
+                    <p class="px-2 py-1 hover:bg-gray-200 hover:rounded-2xl transition-all cursor-pointer text-sm">Plan
+                        with AI</p>
+                    <p><a href=""
+                            class="px-2 py-1 hover:bg-gray-200 hover:rounded-2xl transition-all text-green-950 font-medium text-sm">Rewards</a>
+                    </p>
+                    <p><a href=""
+                            class="px-2 py-1 hover:bg-gray-200 hover:rounded-2xl transition-all text-green-950 font-medium text-sm">Discover</a>
+                    </p>
+                    <p><a href=""
+                            class="px-2 py-1 hover:bg-gray-200 hover:rounded-2xl transition-all text-green-950 font-medium text-sm">Review</a>
+                    </p>
+                    <p><a href=""
+                            class="px-2 py-1 hover:bg-gray-200 hover:rounded-2xl transition-all text-green-950 font-medium text-sm">Forums</a>
+                    </p>
+                </div>
 
-            <!-- Right Icons & Button -->
-            <div class="flex items-center gap-2">
-                <!-- Globe & Currency (Desktop only) -->
-                <a href="" class="hidden lg:flex items-center gap-1 px-2 py-1 hover:bg-gray-200 hover:rounded-2xl transition-all text-green-950 font-medium text-sm">
-                    <i class="fa-solid fa-globe"></i>
-                    <span>USD</span>
-                </a>
+                <!-- Right Icons & Button -->
+                <div class="flex items-center gap-2">
+                    <!-- Globe & Currency (Desktop only) -->
+                    <a href=""
+                        class="hidden lg:flex items-center gap-1 px-2 py-1 hover:bg-gray-200 hover:rounded-2xl transition-all text-green-950 font-medium text-sm">
+                        <i class="fa-solid fa-globe"></i>
+                        <span>USD</span>
+                    </a>
 
-                <!-- Mobile Icons (Mobile/Tablet) -->
-                <a href="" class="lg:hidden p-2 hover:bg-gray-200 rounded-lg">
-                    <i class="fa-solid fa-globe text-lg"></i>
-                </a>
-                <a href="" class="lg:hidden p-2 hover:bg-gray-200 rounded-lg">
-                    <i class="fa-solid fa-user text-lg"></i>
-                </a>
+                    <!-- Mobile Icons (Mobile/Tablet) -->
+                    <a href="" class="lg:hidden p-2 hover:bg-gray-200 rounded-lg">
+                        <i class="fa-solid fa-globe text-lg"></i>
+                    </a>
+                    <a href="" class="lg:hidden p-2 hover:bg-gray-200 rounded-lg">
+                        <i class="fa-solid fa-user text-lg"></i>
+                    </a>
 
-                <!-- Sign Up Button -->
-                <a href="" class="bg-green-950 text-white px-3 py-2 font-medium rounded-2xl hover:bg-green-900 transition-all text-sm">
-                    Sign Up
-                </a>
+                    <!-- Sign Up Button -->
+                    <a href=""
+                        class="bg-green-950 text-white px-3 py-2 font-medium rounded-2xl hover:bg-green-900 transition-all text-sm">
+                        Sign Up
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</nav>
-
-<!-- Add padding to body for fixed navbar -->
-<body class="pt-20">
-    <!-- Rest of content -->
-</body>
+    </nav>
 
     <!-- Backdrop (Mobile Menu) -->
     <div id="menuBackdrop" class="hidden fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"></div>
@@ -98,7 +104,7 @@
         class="fixed left-0 top-0 h-screen w-64 bg-white shadow-lg transform -translate-x-full transition-transform duration-300 ease-in-out z-50 lg:hidden overflow-y-auto sidebar-closed">
         <div class="p-4 border-b border-gray-200 flex justify-between items-center">
             <h3 class="font-bold text-lg">Menu</h3>
-            <button id="closeMenu" class="p-2 hover:bg-gray-200  rounded-lg">
+            <button id="closeMenu" class="p-2 hover:bg-gray-200 rounded-lg transition-transform duration-300">
                 <i class="fa-solid fa-times text-xl"></i>
             </button>
         </div>
@@ -199,7 +205,7 @@
                 <div class="relative aspect-square rounded-2xl overflow-hidden group cursor-pointer">
                     <!-- Background Image -->
                     <div class="absolute inset-0 bg-cover bg-center"
-                        style="background-image: url('./assets/images/4.png');"></div>
+                        style="background-image: url('./src/assets/images/4.png');"></div>
 
                     <!-- Subtle Dark Gradient at Bottom (Always visible) -->
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -217,7 +223,7 @@
 
                 <div class="relative aspect-square rounded-2xl overflow-hidden group cursor-pointer">
                     <div class="absolute inset-0 bg-cover bg-center"
-                        style="background-image: url('./assets/images/1.png');"></div>
+                        style="background-image: url('./src/assets/images/1.png');"></div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-0 left-0 right-0 p-4">
                         <h3 class="text-white font-medium text-2xl md:text-3xl">Food</h3>
@@ -229,7 +235,7 @@
 
                 <div class="relative aspect-square rounded-2xl overflow-hidden group cursor-pointer">
                     <div class="absolute inset-0 bg-cover bg-center"
-                        style="background-image: url('./assets/images/2.png');"></div>
+                        style="background-image: url('./src/assets/images/2.png');"></div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-0 left-0 right-0 p-4">
                         <h3 class="text-white font-medium text-2xl md:text-3xl">Culture</h3>
@@ -241,7 +247,7 @@
 
                 <div class="relative aspect-square rounded-2xl overflow-hidden group cursor-pointer">
                     <div class="absolute inset-0 bg-cover bg-center"
-                        style="background-image: url('./assets/images/3.png');"></div>
+                        style="background-image: url('./src/assets/images/3.png');"></div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-0 left-0 right-0 p-4">
                         <h3 class="text-white font-medium text-2xl md:text-3xl">Water</h3>
@@ -266,7 +272,7 @@
                 <div class="relative border rounded-2xl border-gray-400 overflow-hidden group cursor-pointer">
                     <!-- Image -->
                     <div class="relative overflow-hidden">
-                        <img src="./assets/images/1.png"
+                        <img src="./src/assets/images/1.png"
                             class="w-full h-56 object-cover rounded-t-xl group-hover:brightness-75 transition-all duration-300"
                             alt="">
 
@@ -292,7 +298,7 @@
 
                 <div class="relative border rounded-2xl border-gray-400 overflow-hidden group cursor-pointer">
                     <div class="relative overflow-hidden">
-                        <img src="./assets/images/1.png"
+                        <img src="./src/assets/images/1.png"
                             class="w-full h-56 object-cover rounded-t-xl group-hover:brightness-75 transition-all duration-300"
                             alt="">
                         <div
@@ -312,7 +318,7 @@
 
                 <div class="relative border rounded-2xl border-gray-400 overflow-hidden group cursor-pointer">
                     <div class="relative overflow-hidden">
-                        <img src="./assets/images/1.png"
+                        <img src="./src/assets/images/1.png"
                             class="w-full h-56 object-cover rounded-t-xl group-hover:brightness-75 transition-all duration-300"
                             alt="">
                         <div
@@ -332,7 +338,7 @@
 
                 <div class="relative border rounded-2xl border-gray-400 overflow-hidden group cursor-pointer">
                     <div class="relative overflow-hidden">
-                        <img src="./assets/images/1.png"
+                        <img src="./src/assets/images/1.png"
                             class="w-full h-56 object-cover rounded-t-xl group-hover:brightness-75 transition-all duration-300"
                             alt="">
                         <div
@@ -358,14 +364,14 @@
     <section class="max-w-6xl mx-auto px-4 py-12">
         <div class="flex flex-col gap-y-3">
             <h1 class="text-3xl md:text-4xl font-medium">Explore experiences near Colombo</h1>
-            <p class="">Can’t-miss picks near you</p>
+            <p class="">Can't-miss picks near you</p>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 
                 <div class="relative border rounded-2xl border-gray-400 overflow-hidden group cursor-pointer">
                     <!-- Image -->
                     <div class="relative overflow-hidden">
-                        <img src="./assets/images/1.png"
+                        <img src="./src/assets/images/1.png"
                             class="w-full h-56 object-cover rounded-t-xl group-hover:brightness-75 transition-all duration-300"
                             alt="">
 
@@ -391,7 +397,7 @@
 
                 <div class="relative border rounded-2xl border-gray-400 overflow-hidden group cursor-pointer">
                     <div class="relative overflow-hidden">
-                        <img src="./assets/images/1.png"
+                        <img src="./src/assets/images/1.png"
                             class="w-full h-56 object-cover rounded-t-xl group-hover:brightness-75 transition-all duration-300"
                             alt="">
                         <div
@@ -411,7 +417,7 @@
 
                 <div class="relative border rounded-2xl border-gray-400 overflow-hidden group cursor-pointer">
                     <div class="relative overflow-hidden">
-                        <img src="./assets/images/1.png"
+                        <img src="./src/assets/images/1.png"
                             class="w-full h-56 object-cover rounded-t-xl group-hover:brightness-75 transition-all duration-300"
                             alt="">
                         <div
@@ -431,7 +437,7 @@
 
                 <div class="relative border rounded-2xl border-gray-400 overflow-hidden group cursor-pointer">
                     <div class="relative overflow-hidden">
-                        <img src="./assets/images/1.png"
+                        <img src="./src/assets/images/1.png"
                             class="w-full h-56 object-cover rounded-t-xl group-hover:brightness-75 transition-all duration-300"
                             alt="">
                         <div
@@ -460,7 +466,7 @@
 
             <!-- Image -->
             <div class="lg:w-1/2 h-64 lg:h-auto">
-                <img src="./assets/images/9.png" class="w-full h-full object-cover" alt="">
+                <img src="./src/assets/images/9.png" class="w-full h-full object-cover" alt="">
             </div>
 
             <!-- Content -->
@@ -494,7 +500,7 @@
                 <div class="relative border rounded-2xl border-gray-400 overflow-hidden group cursor-pointer">
                     <!-- Image -->
                     <div class="relative overflow-hidden">
-                        <img src="./assets/images/1.png"
+                        <img src="./src/assets/images/1.png"
                             class="w-full h-56 object-cover rounded-t-xl group-hover:brightness-75 transition-all duration-300"
                             alt="">
 
@@ -520,7 +526,7 @@
 
                 <div class="relative border rounded-2xl border-gray-400 overflow-hidden group cursor-pointer">
                     <div class="relative overflow-hidden">
-                        <img src="./assets/images/1.png"
+                        <img src="./src/assets/images/1.png"
                             class="w-full h-56 object-cover rounded-t-xl group-hover:brightness-75 transition-all duration-300"
                             alt="">
                         <div
@@ -540,7 +546,7 @@
 
                 <div class="relative border rounded-2xl border-gray-400 overflow-hidden group cursor-pointer">
                     <div class="relative overflow-hidden">
-                        <img src="./assets/images/1.png"
+                        <img src="./src/assets/images/1.png"
                             class="w-full h-56 object-cover rounded-t-xl group-hover:brightness-75 transition-all duration-300"
                             alt="">
                         <div
@@ -560,7 +566,7 @@
 
                 <div class="relative border rounded-2xl border-gray-400 overflow-hidden group cursor-pointer">
                     <div class="relative overflow-hidden">
-                        <img src="./assets/images/1.png"
+                        <img src="./src/assets/images/1.png"
                             class="w-full h-56 object-cover rounded-t-xl group-hover:brightness-75 transition-all duration-300"
                             alt="">
                         <div
@@ -589,7 +595,7 @@
 
             <!-- Image -->
             <div class="lg:w-1/2 h-64 lg:h-auto">
-                <img src="./assets/images/9.png" class="w-full h-full object-cover" alt="">
+                <img src="./src/assets/images/9.png" class="w-full h-full object-cover" alt="">
             </div>
 
             <!-- Content -->
@@ -621,7 +627,7 @@
                 <div class="relative aspect-square rounded-2xl overflow-hidden group cursor-pointer">
                     <!-- Background Image -->
                     <div class="absolute inset-0 bg-cover bg-center"
-                        style="background-image: url('./assets/images/4.png');"></div>
+                        style="background-image: url('./src/assets/images/4.png');"></div>
 
                     <!-- Subtle Dark Gradient at Bottom (Always visible) -->
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -639,7 +645,7 @@
 
                 <div class="relative aspect-square rounded-2xl overflow-hidden group cursor-pointer">
                     <div class="absolute inset-0 bg-cover bg-center"
-                        style="background-image: url('./assets/images/1.png');"></div>
+                        style="background-image: url('./src/assets/images/1.png');"></div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-0 left-0 right-0 p-4">
                         <h3 class="text-white font-medium text-2xl md:text-3xl">Paris, France</h3>
@@ -651,7 +657,7 @@
 
                 <div class="relative aspect-square rounded-2xl overflow-hidden group cursor-pointer">
                     <div class="absolute inset-0 bg-cover bg-center"
-                        style="background-image: url('./assets/images/2.png');"></div>
+                        style="background-image: url('./src/assets/images/2.png');"></div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-0 left-0 right-0 p-4">
                         <h3 class="text-white font-medium text-2xl md:text-3xl">London, UK</h3>
@@ -663,7 +669,7 @@
 
                 <div class="relative aspect-square rounded-2xl overflow-hidden group cursor-pointer">
                     <div class="absolute inset-0 bg-cover bg-center"
-                        style="background-image: url('./assets/images/3.png');"></div>
+                        style="background-image: url('./src/assets/images/3.png');"></div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                     <div class="absolute bottom-0 left-0 right-0 p-4">
                         <h3 class="text-white font-medium text-2xl md:text-3xl">Las Vegas, NV</h3>
@@ -696,7 +702,7 @@
 
                 <!-- Image -->
                 <div class="w-full lg:w-1/2 h-48 md:h-64 lg:h-auto">
-                    <img src="./assets/images/10.png" class="w-full h-full object-cover rounded-xl" alt="">
+                    <img src="./src/assets/images/10.png" class="w-full h-full object-cover rounded-xl" alt="">
                 </div>
             </div>
         </section>
@@ -704,69 +710,80 @@
 
 
     <!-- Footer -->
-<footer class="bg-gray-100 border-t border-gray-300">
-    <section class="max-w-6xl mx-auto px-4 py-12">
-        <!-- Main Content -->
-        <div class="mb-12">
-            <h1 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Tripadvisor: Join the largest travel community</h1>
-            <p class="text-gray-700 text-sm md:text-base leading-relaxed mb-8">
-                As the world's largest travel guidance platform, Tripadvisor helps you take better trips. And now it pays to plan, book, and review with us: Join Tripadvisor Rewards today and get $30 off Things to Do. Plus, you can check out hotels, restaurants, and more on our site or in the app—they're all backed by more than a billion reviews and opinions from travelers who have been there.
-            </p>
-        </div>
-
-        <!-- Links Grid -->
-        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8 mb-8 border-t border-gray-300 pt-8">
-            
-            <!-- Column 1 -->
-            <div class="flex flex-col gap-y-3">
-                <h3 class="font-bold text-gray-900">Company</h3>
-                <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">About Tripadvisor</a>
-                <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">About Us</a>
-                <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Press</a>
-                <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Resources and Policies</a>
+    <footer class="bg-gray-100 border-t border-gray-300">
+        <section class="max-w-6xl mx-auto px-4 py-12">
+            <!-- Main Content -->
+            <div class="mb-12">
+                <h1 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Tripadvisor: Join the largest travel
+                    community</h1>
+                <p class="text-gray-700 text-sm md:text-base leading-relaxed mb-8">
+                    As the world's largest travel guidance platform, Tripadvisor helps you take better trips. And now it
+                    pays to plan, book, and review with us: Join Tripadvisor Rewards today and get $30 off Things to Do.
+                    Plus, you can check out hotels, restaurants, and more on our site or in the app—they're all backed
+                    by more than a billion reviews and opinions from travelers who have been there.
+                </p>
             </div>
 
-            <!-- Column 2 -->
-            <div class="flex flex-col gap-y-3">
-                <h3 class="font-bold text-gray-900">Explore</h3>
-                <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Hotels</a>
-                <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Things to Do</a>
-                <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Restaurants</a>
-                <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Flights</a>
-            </div>
+            <!-- Links Grid -->
+            <div
+                class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8 mb-8 border-t border-gray-300 pt-8">
 
-            <!-- Column 3 -->
-            <div class="flex flex-col gap-y-3">
-                <h3 class="font-bold text-gray-900">Help</h3>
-                <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Contact Us</a>
-                <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">FAQ</a>
-                <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Support</a>
-                <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Terms</a>
-            </div>
+                <!-- Column 1 -->
+                <div class="flex flex-col gap-y-3">
+                    <h3 class="font-bold text-gray-900">Company</h3>
+                    <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">About Tripadvisor</a>
+                    <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">About Us</a>
+                    <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Press</a>
+                    <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Resources and Policies</a>
+                </div>
 
-            <!-- Column 4 -->
-            <div class="flex flex-col gap-y-3">
-                <h3 class="font-bold text-gray-900">Follow Us</h3>
-                <div class="flex gap-3">
-                    <a href="" class="text-gray-600 hover:text-orange-500 transition"><i class="fa-brands fa-facebook text-xl"></i></a>
-                    <a href="" class="text-gray-600 hover:text-orange-500 transition"><i class="fa-brands fa-twitter text-xl"></i></a>
-                    <a href="" class="text-gray-600 hover:text-orange-500 transition"><i class="fa-brands fa-instagram text-xl"></i></a>
-                    <a href="" class="text-gray-600 hover:text-orange-500 transition"><i class="fa-brands fa-youtube text-xl"></i></a>
+                <!-- Column 2 -->
+                <div class="flex flex-col gap-y-3">
+                    <h3 class="font-bold text-gray-900">Explore</h3>
+                    <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Hotels</a>
+                    <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Things to Do</a>
+                    <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Restaurants</a>
+                    <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Flights</a>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="flex flex-col gap-y-3">
+                    <h3 class="font-bold text-gray-900">Help</h3>
+                    <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Contact Us</a>
+                    <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">FAQ</a>
+                    <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Support</a>
+                    <a href="" class="text-gray-600 hover:text-orange-500 transition text-sm">Terms</a>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="flex flex-col gap-y-3">
+                    <h3 class="font-bold text-gray-900">Follow Us</h3>
+                    <div class="flex gap-3">
+                        <a href="" class="text-gray-600 hover:text-orange-500 transition"><i
+                                class="fa-brands fa-facebook text-xl"></i></a>
+                        <a href="" class="text-gray-600 hover:text-orange-500 transition"><i
+                                class="fa-brands fa-twitter text-xl"></i></a>
+                        <a href="" class="text-gray-600 hover:text-orange-500 transition"><i
+                                class="fa-brands fa-instagram text-xl"></i></a>
+                        <a href="" class="text-gray-600 hover:text-orange-500 transition"><i
+                                class="fa-brands fa-youtube text-xl"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Bottom Footer -->
-        <div class="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600">
-            <p>&copy; 2024 Tripadvisor LLC. All rights reserved.</p>
-            <div class="flex gap-6">
-                <a href="" class="hover:text-orange-500 transition">Privacy</a>
-                <a href="" class="hover:text-orange-500 transition">Terms</a>
-                <a href="" class="hover:text-orange-500 transition">Sitemap</a>
+            <!-- Bottom Footer -->
+            <div
+                class="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600">
+                <p>&copy; 2024 Tripadvisor LLC. All rights reserved.</p>
+                <div class="flex gap-6">
+                    <a href="" class="hover:text-orange-500 transition">Privacy</a>
+                    <a href="" class="hover:text-orange-500 transition">Terms</a>
+                    <a href="" class="hover:text-orange-500 transition">Sitemap</a>
+                </div>
             </div>
-        </div>
-    </section>
-</footer>
+        </section>
+    </footer>
+
     <script>
         const hamburger = document.getElementById('hamburger');
         const mobileMenu = document.getElementById('mobileMenu');
@@ -778,6 +795,7 @@
             mobileMenu.classList.remove('-translate-x-full');
             mobileMenu.classList.add('translate-x-0');
             menuBackdrop.classList.remove('hidden');
+            closeMenu.style.transform = 'rotate(90deg)';
         });
 
         // Close menu
@@ -785,6 +803,7 @@
             mobileMenu.classList.add('-translate-x-full');
             mobileMenu.classList.remove('translate-x-0');
             menuBackdrop.classList.add('hidden');
+            closeMenu.style.transform = 'rotate(0deg)';
         });
 
         // Close menu when backdrop clicked
@@ -792,6 +811,7 @@
             mobileMenu.classList.add('-translate-x-full');
             mobileMenu.classList.remove('translate-x-0');
             menuBackdrop.classList.add('hidden');
+            closeMenu.style.transform = 'rotate(0deg)';
         });
 
         // Close menu when link clicked
@@ -800,6 +820,7 @@
                 mobileMenu.classList.add('-translate-x-full');
                 mobileMenu.classList.remove('translate-x-0');
                 menuBackdrop.classList.add('hidden');
+                closeMenu.style.transform = 'rotate(0deg)';
             });
         });
 
